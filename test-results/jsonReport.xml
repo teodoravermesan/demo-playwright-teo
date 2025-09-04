@@ -1,0 +1,28 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="20.454561">
+<testsuite name="usePageObjects.spec.ts" timestamp="2025-09-04T15:38:54.828Z" hostname="chromium" tests="1" failures="1" skipped="0" time="19.408" errors="0">
+<testcase name="login" classname="usePageObjects.spec.ts" time="19.408">
+<failure message="usePageObjects.spec.ts:21:5 login" type="FAILURE">
+<![CDATA[  [chromium] › usePageObjects.spec.ts:21:5 › login ─────────────────────────────────────────────────
+
+    Error: locator.click: Target page, context or browser has been closed
+    Call log:
+      - waiting for locator('.day-cell.ng-star-inserted').getByText('19', { exact: true })
+
+
+       at ../page-objects/datePickerPage.ts:49
+
+      47 |         }
+      48 |
+    > 49 |         await this.page.locator('.day-cell.ng-star-inserted').getByText(expectedDate, { exact: true }).click()
+         |                                                                                                        ^
+      50 |         return dateToAssert
+      51 |     }
+      52 |
+        at DatePickerPage.selectDateInCalendar (/Users/vermesant/Desktop/page object playwright/pw-practice-app/page-objects/datePickerPage.ts:49:104)
+        at DatePickerPage.selectDateWithrange (/Users/vermesant/Desktop/page object playwright/pw-practice-app/page-objects/datePickerPage.ts:22:33)
+        at /Users/vermesant/Desktop/page object playwright/pw-practice-app/tests/usePageObjects.spec.ts:32:5
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>
