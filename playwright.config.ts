@@ -23,7 +23,7 @@ export default defineConfig<TestOptions>({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: 'http://localhost:61905/',
+    baseURL: 'http://llocalhost:4200/',
     globalQaURL: 'http://qa..',
     // baseURL: process.env.DEV === '1' ? 'http://localhost:61905/' : process.env.STAGING === '1' ? 'sdfdsfdsfdd' : 'http://localhost:4200/',
 

@@ -28,7 +28,7 @@ jobs:
       - name: Start Web Server
         run: |
           PORT=61905 npm run start &  # Change this if your server uses a different start command
-          npx wait-on http://localhost:61905
+          npx wait-on http://localhost:4200
 
       - name: Run Playwright tests
         run: npm run pageObjects-chrome
