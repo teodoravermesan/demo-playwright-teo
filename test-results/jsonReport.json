@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/playwright.config.ts",
-    "rootDir": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/tests",
+    "configFile": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/playwright.config.ts",
+    "rootDir": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/tests",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -28,7 +28,7 @@
         }
       ],
       [
-        "/Users/vermesant/Desktop/page object playwright/pw-practice-app/node_modules/allure-playwright/dist/cjs/index.js",
+        "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/node_modules/allure-playwright/dist/cjs/index.js",
         null
       ],
       [
@@ -43,7 +43,7 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/test-results",
+        "outputDir": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -51,7 +51,7 @@
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/tests",
+        "testDir": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -59,7 +59,7 @@
         "timeout": 30000
       },
       {
-        "outputDir": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/test-results",
+        "outputDir": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -67,7 +67,7 @@
         },
         "id": "staging",
         "name": "staging",
-        "testDir": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/tests",
+        "testDir": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -75,7 +75,7 @@
         "timeout": 30000
       },
       {
-        "outputDir": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/test-results",
+        "outputDir": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -83,7 +83,7 @@
         },
         "id": "firefox",
         "name": "firefox",
-        "testDir": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/tests",
+        "testDir": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -91,7 +91,7 @@
         "timeout": 30000
       },
       {
-        "outputDir": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/test-results",
+        "outputDir": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -99,7 +99,7 @@
         },
         "id": "webkit",
         "name": "webkit",
-        "testDir": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/tests",
+        "testDir": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -107,7 +107,7 @@
         "timeout": 30000
       },
       {
-        "outputDir": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/test-results",
+        "outputDir": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -115,7 +115,7 @@
         },
         "id": "mobile",
         "name": "mobile",
-        "testDir": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/tests",
+        "testDir": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/tests",
         "testIgnore": [],
         "testMatch": [
           "testMobile.spec.ts"
@@ -138,8 +138,8 @@
       "line": 0,
       "specs": [
         {
-          "title": "login",
-          "ok": false,
+          "title": "navigate to form page",
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -150,49 +150,25 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 1,
                   "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 19408,
-                  "error": {
-                    "message": "Error: locator.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('.day-cell.ng-star-inserted').getByText('19', { exact: true })\u001b[22m\n",
-                    "stack": "Error: locator.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('.day-cell.ng-star-inserted').getByText('19', { exact: true })\u001b[22m\n\n    at DatePickerPage.selectDateInCalendar (/Users/vermesant/Desktop/page object playwright/pw-practice-app/page-objects/datePickerPage.ts:49:104)\n    at DatePickerPage.selectDateWithrange (/Users/vermesant/Desktop/page object playwright/pw-practice-app/page-objects/datePickerPage.ts:22:33)\n    at /Users/vermesant/Desktop/page object playwright/pw-practice-app/tests/usePageObjects.spec.ts:32:5",
-                    "location": {
-                      "file": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/page-objects/datePickerPage.ts",
-                      "column": 104,
-                      "line": 49
-                    },
-                    "snippet": "\u001b[90m   at \u001b[39m../page-objects/datePickerPage.ts:49\n\n\u001b[0m \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 49 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[32m'.day-cell.ng-star-inserted'\u001b[39m)\u001b[33m.\u001b[39mgetByText(expectedDate\u001b[33m,\u001b[39m { exact\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m.\u001b[39mclick()\n \u001b[90m    |\u001b[39m                                                                                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 50 |\u001b[39m         \u001b[36mreturn\u001b[39m dateToAssert\n \u001b[90m 51 |\u001b[39m     }\n \u001b[90m 52 |\u001b[39m\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/page-objects/datePickerPage.ts",
-                        "column": 104,
-                        "line": 49
-                      },
-                      "message": "Error: locator.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('.day-cell.ng-star-inserted').getByText('19', { exact: true })\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../page-objects/datePickerPage.ts:49\n\n\u001b[0m \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 49 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[32m'.day-cell.ng-star-inserted'\u001b[39m)\u001b[33m.\u001b[39mgetByText(expectedDate\u001b[33m,\u001b[39m { exact\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m.\u001b[39mclick()\n \u001b[90m    |\u001b[39m                                                                                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 50 |\u001b[39m         \u001b[36mreturn\u001b[39m dateToAssert\n \u001b[90m 51 |\u001b[39m     }\n \u001b[90m 52 |\u001b[39m\u001b[0m\n\u001b[2m    at DatePickerPage.selectDateInCalendar (/Users/vermesant/Desktop/page object playwright/pw-practice-app/page-objects/datePickerPage.ts:49:104)\u001b[22m\n\u001b[2m    at DatePickerPage.selectDateWithrange (/Users/vermesant/Desktop/page object playwright/pw-practice-app/page-objects/datePickerPage.ts:22:33)\u001b[22m\n\u001b[2m    at /Users/vermesant/Desktop/page object playwright/pw-practice-app/tests/usePageObjects.spec.ts:32:5\u001b[22m"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 7947,
+                  "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-09-04T15:38:55.159Z",
+                  "startTime": "2025-09-04T18:44:59.205Z",
                   "annotations": [],
-                  "attachments": [],
-                  "errorLocation": {
-                    "file": "/Users/vermesant/Desktop/page object playwright/pw-practice-app/page-objects/datePickerPage.ts",
-                    "column": 104,
-                    "line": 49
-                  }
+                  "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
-          "id": "fa018c391591bb0319e0-552633acd910e2249f9d",
+          "id": "fa018c391591bb0319e0-a273b48853db97e7ead2",
           "file": "usePageObjects.spec.ts",
-          "line": 21,
+          "line": 11,
           "column": 5
         }
       ]
@@ -200,11 +176,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-09-04T15:38:54.525Z",
-    "duration": 20454.561,
-    "expected": 0,
+    "startTime": "2025-09-04T18:44:58.580Z",
+    "duration": 8987.815000000002,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
