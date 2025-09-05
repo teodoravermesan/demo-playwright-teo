@@ -47,5 +47,4 @@ test('testing with argos ci', async ({ page }) => {
     await argosScreenshot(page, "form layots page")
     await pm.navigateTo().datePickerPage()
     await argosScreenshot(page, "date picker page")
-
 })
