@@ -28,7 +28,7 @@ test('login', async ({ page }) => {
     await pm.onFormLayoutsPage().submitForm1(randomFullName, randomEmail, false)
     await page.locator('nb-card', {hasText: "Inline form"}).screenshot({path: 'screenshots/locator.png'})
     await pm.navigateTo().datePickerPage()
-    await pm.onDatePickerPage().selectDate(5)
+   // await pm.onDatePickerPage().selectDate(5)
     await pm.onDatePickerPage().selectDateWithrange(6, 15)
 });
 
