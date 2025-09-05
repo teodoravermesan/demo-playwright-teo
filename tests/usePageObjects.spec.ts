@@ -41,7 +41,7 @@ test('test test @smoke', async ({ pageManager, formLayoutsPage }) => {
     await pageManager.onFormLayoutsPage().submitForm1(randomFullName, randomEmail, false)
 });
 
-test.only('testing with argos ci', async ({ page }) => {
+test('testing with argos ci', async ({ page }) => {
     const pm = new PageManager(page)
     await pm.navigateTo().formLayoutsPage()
     await argosScreenshot(page, "form layots page")
