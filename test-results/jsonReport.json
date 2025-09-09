@@ -145,61 +145,73 @@
   },
   "suites": [
     {
-      "title": "components.spec.ts",
-      "file": "components.spec.ts",
+      "title": "usePageObjects.spec.ts",
+      "file": "usePageObjects.spec.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "layouts",
-          "file": "components.spec.ts",
-          "line": 9,
-          "column": 6,
-          "specs": [
+          "title": "testing with argos ci",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "list and dropdown",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
                 {
-                  "timeout": 30000,
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5134,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-09-09T13:15:17.415Z",
                   "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
+                  "attachments": [
                     {
-                      "workerIndex": 155,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 2917,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-09-09T09:19:36.963Z",
-                      "annotations": [],
-                      "attachments": []
+                      "name": "argos/metadata___chromium/form layots page",
+                      "contentType": "application/json",
+                      "path": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results/usePageObjects-testing-with-argos-ci-chromium/attachments/argos-metadata-chromium-form-layots-page-e50312726f1ab6a66a1cc561692a6a05d513cb43.json"
+                    },
+                    {
+                      "name": "argos/screenshot___chromium/form layots page",
+                      "contentType": "image/png",
+                      "path": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results/usePageObjects-testing-with-argos-ci-chromium/attachments/argos-screenshot-chromium-form-layots-page-7413bc0ebd1f91960db3fb101bd893d24b13d50d.png"
+                    },
+                    {
+                      "name": "argos/metadata___chromium/this is date picker page",
+                      "contentType": "application/json",
+                      "path": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results/usePageObjects-testing-with-argos-ci-chromium/attachments/argos-metadata-chromium-this-is-date-picker-page-f5243919c098ac9dd616382d7fd05397ca0e238f.json"
+                    },
+                    {
+                      "name": "argos/screenshot___chromium/this is date picker page",
+                      "contentType": "image/png",
+                      "path": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results/usePageObjects-testing-with-argos-ci-chromium/attachments/argos-screenshot-chromium-this-is-date-picker-page-405711757b335e542e0fb07e1275ae973ecba237.png"
                     }
-                  ],
-                  "status": "expected"
+                  ]
                 }
               ],
-              "id": "21914d481cf54b88bd8b-45b9cd1261fa7f3f33c8",
-              "file": "components.spec.ts",
-              "line": 50,
-              "column": 9
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "fa018c391591bb0319e0-7e2574ad3db7018fd1cb",
+          "file": "usePageObjects.spec.ts",
+          "line": 35,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-09-09T09:19:36.400Z",
-    "duration": 3526.5509999999776,
+    "startTime": "2025-09-09T13:15:16.679Z",
+    "duration": 5915.323000000091,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

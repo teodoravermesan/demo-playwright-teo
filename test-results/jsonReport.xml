@@ -1,6 +1,17 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="3.526550999999978">
-<testsuite name="components.spec.ts" timestamp="2025-09-09T09:19:36.703Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.917" errors="0">
-<testcase name="layouts › list and dropdown" classname="components.spec.ts" time="2.917">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="5.915323000000091">
+<testsuite name="usePageObjects.spec.ts" timestamp="2025-09-09T13:15:17.068Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.134" errors="0">
+<testcase name="testing with argos ci" classname="usePageObjects.spec.ts" time="5.134">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|usePageObjects-testing-with-argos-ci-chromium/attachments/argos-metadata-chromium-form-layots-page-e50312726f1ab6a66a1cc561692a6a05d513cb43.json]]
+
+[[ATTACHMENT|usePageObjects-testing-with-argos-ci-chromium/attachments/argos-screenshot-chromium-form-layots-page-7413bc0ebd1f91960db3fb101bd893d24b13d50d.png]]
+
+[[ATTACHMENT|usePageObjects-testing-with-argos-ci-chromium/attachments/argos-metadata-chromium-this-is-date-picker-page-f5243919c098ac9dd616382d7fd05397ca0e238f.json]]
+
+[[ATTACHMENT|usePageObjects-testing-with-argos-ci-chromium/attachments/argos-screenshot-chromium-this-is-date-picker-page-405711757b335e542e0fb07e1275ae973ecba237.png]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>

@@ -7,15 +7,14 @@ export type TestOptions = {
 }
 
 export const test = base.extend<TestOptions>({
-
     globalQaURL: ['', { option: true }],
-    formLayoutsPage: async ({ page }, use) => {
+    formLayoutsPage: [async ({ page }, use) => {
         await page.goto('/')
         await page.getByText('Forms').click()
         await page.getByText('Form Layouts').click()
         await use('')
 
-    },
+    }, {auto: true}],
 
     pageManager: async ({ page }, use) => {
         const pm = new PageManager(page)
