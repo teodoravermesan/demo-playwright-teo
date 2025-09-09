@@ -1,0 +1,191 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e7]:
+        - generic:
+          - generic:
+            - generic:
+              - button [ref=e8] [cursor=pointer]
+              - textbox "Search..." [ref=e9]
+          - link "pinterest" [ref=e10] [cursor=pointer]:
+            - /url: https://in.pinterest.com/globalsqa/
+          - link "twitter" [ref=e11] [cursor=pointer]:
+            - /url: https://twitter.com/Global_SQA
+          - link "linkedin" [ref=e12] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/globalsqa
+          - link "google" [ref=e13] [cursor=pointer]:
+            - /url: https://plus.google.com/103761557396023531439/posts
+          - link "facebook" [ref=e14] [cursor=pointer]:
+            - /url: https://facebook.com/globalsqa
+          - generic [ref=e16]: contact@globalsqa.com
+      - generic [ref=e19]:
+        - link "GlobalSQA" [ref=e22] [cursor=pointer]:
+          - /url: https://www.globalsqa.com/
+          - img "GlobalSQA" [ref=e23] [cursor=pointer]
+        - generic [ref=e24]:
+          - list:
+            - listitem [ref=e25]:
+              - link "About" [ref=e26] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/about/
+            - listitem [ref=e27]:
+              - link "CheatSheets" [ref=e28] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/cheatsheets/
+            - listitem [ref=e29]:
+              - link "Free Ebooks" [ref=e30] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/free-ebooks/
+                - text: Free Ebooks
+            - listitem [ref=e32]:
+              - link "Tester’s Hub" [ref=e33] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/testers-hub/
+                - text: Tester’s Hub
+              - text:  
+            - listitem [ref=e35]:
+              - link "Contact Us" [ref=e36] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/contact-us/
+      - text:    
+    - generic [ref=e37]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - link "Home" [ref=e43] [cursor=pointer]:
+            - /url: https://www.globalsqa.com/
+            - generic [ref=e44] [cursor=pointer]: Home
+          - link "Demo Testing Site" [ref=e45] [cursor=pointer]:
+            - /url: https://www.globalsqa.com/demo-site/
+            - generic [ref=e46] [cursor=pointer]: Demo Testing Site
+          - link "Drag And Drop" [ref=e47] [cursor=pointer]:
+            - /url: https://www.globalsqa.com/demo-site/draganddrop/
+            - generic [ref=e48] [cursor=pointer]: Drag And Drop
+        - heading "Drag And Drop" [level=1] [ref=e50]
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - heading "Interaction" [level=4] [ref=e56]:
+              - generic [ref=e57]: Interaction
+            - list [ref=e59]:
+              - listitem [ref=e60]:
+                - link "Sortable" [ref=e61] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/sorting/
+                  - generic [ref=e62] [cursor=pointer]: Sortable
+              - listitem [ref=e63]:
+                - link "Drag And Drop" [ref=e64] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/draganddrop/
+                  - generic [ref=e65] [cursor=pointer]: Drag And Drop
+              - listitem [ref=e66]:
+                - link "Select Elements" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/select-elements/
+                  - generic [ref=e68] [cursor=pointer]: Select Elements
+              - listitem [ref=e69]:
+                - link "Draggable Boxes" [ref=e70] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/draggableboxes/
+                  - generic [ref=e71] [cursor=pointer]: Draggable Boxes
+              - listitem [ref=e72]:
+                - link "DropDown Menu" [ref=e73] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/select-dropdown-menu/
+                  - generic [ref=e74] [cursor=pointer]: DropDown Menu
+          - generic [ref=e75]:
+            - heading "Widgets" [level=4] [ref=e76]:
+              - generic [ref=e77]: Widgets
+            - list [ref=e79]:
+              - listitem [ref=e80]:
+                - link "Tooltip" [ref=e81] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/tooltip/
+                  - generic [ref=e82] [cursor=pointer]: Tooltip
+              - listitem [ref=e83]:
+                - link "Sliders" [ref=e84] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/sliders/
+                  - generic [ref=e85] [cursor=pointer]: Sliders
+              - listitem [ref=e86]:
+                - link "Spinner" [ref=e87] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/spinner/
+                  - generic [ref=e88] [cursor=pointer]: Spinner
+              - listitem [ref=e89]:
+                - link "DatePicker" [ref=e90] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/datepicker/
+                  - generic [ref=e91] [cursor=pointer]: DatePicker
+              - listitem [ref=e92]:
+                - link "Progress Bar" [ref=e93] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/progress-bar/
+                  - generic [ref=e94] [cursor=pointer]: Progress Bar
+              - listitem [ref=e95]:
+                - link "Dialog Boxes" [ref=e96] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/dialog-boxes/
+                  - generic [ref=e97] [cursor=pointer]: Dialog Boxes
+              - listitem [ref=e98]:
+                - link "Auto Complete" [ref=e99] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/auto-complete/
+                  - generic [ref=e100] [cursor=pointer]: Auto Complete
+              - listitem [ref=e101]:
+                - link "Accordion And Tabs" [ref=e102] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/accordion-and-tabs/
+                  - generic [ref=e103] [cursor=pointer]: Accordion And Tabs
+          - iframe [ref=e105]:
+            
+          - generic:
+            - iframe
+          - generic:
+            - iframe
+        - generic [ref=e107]:
+          - list [ref=e108]:
+            - tab "Photo Manager" [ref=e109] [cursor=pointer]
+            - tab "Accepted Elements" [ref=e110] [cursor=pointer]
+            - tab "Propagation" [ref=e111] [cursor=pointer]
+          - paragraph [ref=e114]:
+            - iframe [ref=e115]:
+              
+            - insertion [ref=e116]
+    - generic [ref=e117]:
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - heading "Footer Widget Area 1" [level=3] [ref=e121]
+          - paragraph [ref=e122]:
+            - link "Assign a widget to this area now." [ref=e123] [cursor=pointer]:
+              - /url: https://www.globalsqa.com/wp-admin/widgets.php
+        - generic [ref=e124]:
+          - heading "Footer Widget Area 2" [level=3] [ref=e125]
+          - paragraph [ref=e126]:
+            - link "Assign a widget to this area now." [ref=e127] [cursor=pointer]:
+              - /url: https://www.globalsqa.com/wp-admin/widgets.php
+        - generic [ref=e128]:
+          - heading "Footer Widget Area 3" [level=3] [ref=e129]
+          - paragraph [ref=e130]:
+            - link "Assign a widget to this area now." [ref=e131] [cursor=pointer]:
+              - /url: https://www.globalsqa.com/wp-admin/widgets.php
+        - generic [ref=e132]:
+          - heading "Footer Widget Area 4" [level=3] [ref=e133]
+          - paragraph [ref=e134]:
+            - link "Assign a widget to this area now." [ref=e135] [cursor=pointer]:
+              - /url: https://www.globalsqa.com/wp-admin/widgets.php
+      - generic [ref=e140]:
+        - link "pinterest" [ref=e141] [cursor=pointer]:
+          - /url: https://in.pinterest.com/globalsqa/
+        - link "twitter" [ref=e142] [cursor=pointer]:
+          - /url: https://twitter.com/Global_SQA
+        - link "linkedin" [ref=e143] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/globalsqa
+        - link "google" [ref=e144] [cursor=pointer]:
+          - /url: https://plus.google.com/103761557396023531439/posts
+        - link "facebook" [ref=e145] [cursor=pointer]:
+          - /url: https://facebook.com/globalsqa
+        - generic [ref=e146]:
+          - text: "Website Designed & Developed by :"
+          - link "GlobalSQA" [ref=e147] [cursor=pointer]:
+            - /url: https://www.globalsqa.com
+  - generic:
+    - insertion:
+      - generic:
+        - iframe
+  - generic [ref=e151]:
+    - button "Privacy and cookie settings" [ref=e152] [cursor=pointer]
+    - generic [ref=e153]: "Managed by Google. Complies with IAB TCF. CMP ID: 300"
+  - insertion [ref=e154]:
+    - iframe [ref=e157]:
+      - iframe [ref=f3e1]:
+        - generic [ref=f4e3]:
+          - generic:
+            - img [ref=f4e7] [cursor=pointer]
+            - button [ref=f4e10] [cursor=pointer]:
+              - img [ref=f4e11] [cursor=pointer]
+```

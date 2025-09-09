@@ -1,0 +1,399 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e7]:
+  - navigation [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - link [ref=e13] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e15] [cursor=pointer]
+          - link "PW-test" [ref=e23] [cursor=pointer]:
+            - /url: "#"
+            - text: PW-
+            - generic [ref=e24] [cursor=pointer]: test
+        - button "Light" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27] [cursor=pointer]: Light
+          - img [ref=e29] [cursor=pointer]
+      - generic [ref=e35]:
+        - button [ref=e38] [cursor=pointer]:
+          - img [ref=e40] [cursor=pointer]
+        - link [ref=e46] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e48] [cursor=pointer]
+        - link [ref=e54] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e56] [cursor=pointer]
+        - generic [ref=e66] [cursor=pointer]: Nick Jones
+  - generic [ref=e67]:
+    - list [ref=e72]:
+      - listitem [ref=e73]:
+        - link "IoT Dashboard" [ref=e74] [cursor=pointer]:
+          - /url: /pages/iot-dashboard
+          - img [ref=e76] [cursor=pointer]
+          - generic: IoT Dashboard
+      - listitem [ref=e81]:
+        - generic [ref=e82]: FEATURES
+      - listitem [ref=e83]:
+        - link "Forms" [ref=e84] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e86] [cursor=pointer]
+          - generic: Forms
+          - img [ref=e93] [cursor=pointer]
+        - list:
+          - listitem [ref=e98]:
+            - link "Form Layouts" [ref=e99] [cursor=pointer]:
+              - /url: /pages/forms/layouts
+              - generic: Form Layouts
+          - listitem [ref=e100]:
+            - link "Datepicker" [ref=e101] [cursor=pointer]:
+              - /url: /pages/forms/datepicker
+              - generic: Datepicker
+      - listitem [ref=e102]:
+        - link "Modal & Overlays" [ref=e103] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e105] [cursor=pointer]
+          - generic: Modal & Overlays
+          - img [ref=e113] [cursor=pointer]
+        - list:
+          - listitem [ref=e118]:
+            - link "Dialog" [ref=e119] [cursor=pointer]:
+              - /url: /pages/modal-overlays/dialog
+              - generic: Dialog
+          - listitem [ref=e120]:
+            - link "Window" [ref=e121] [cursor=pointer]:
+              - /url: /pages/modal-overlays/window
+              - generic: Window
+          - listitem [ref=e122]:
+            - link "Popover" [ref=e123] [cursor=pointer]:
+              - /url: /pages/modal-overlays/popover
+              - generic: Popover
+          - listitem [ref=e124]:
+            - link "Toastr" [ref=e125] [cursor=pointer]:
+              - /url: /pages/modal-overlays/toastr
+              - generic: Toastr
+          - listitem [ref=e126]:
+            - link "Tooltip" [ref=e127] [cursor=pointer]:
+              - /url: /pages/modal-overlays/tooltip
+              - generic: Tooltip
+      - listitem [ref=e128]:
+        - link "Extra Components" [ref=e129] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e131] [cursor=pointer]
+          - generic: Extra Components
+          - img [ref=e140] [cursor=pointer]
+        - list:
+          - listitem [ref=e145]:
+            - link "Calendar" [ref=e146] [cursor=pointer]:
+              - /url: /pages/extra-components/calendar
+              - generic: Calendar
+      - listitem [ref=e147]:
+        - link "Charts" [ref=e148] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e150] [cursor=pointer]
+          - generic: Charts
+          - img [ref=e157] [cursor=pointer]
+        - list:
+          - listitem [ref=e162]:
+            - link "Echarts" [ref=e163] [cursor=pointer]:
+              - /url: /pages/charts/echarts
+              - generic: Echarts
+      - listitem [ref=e164]:
+        - link "Tables & Data" [ref=e165] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e167] [cursor=pointer]
+          - generic: Tables & Data
+          - img [ref=e176] [cursor=pointer]
+        - list:
+          - listitem [ref=e181]:
+            - link "Smart Table" [ref=e182] [cursor=pointer]:
+              - /url: /pages/tables/smart-table
+              - generic: Smart Table
+          - listitem [ref=e183]:
+            - link "Tree Grid" [ref=e184] [cursor=pointer]:
+              - /url: /pages/tables/tree-grid
+              - generic: Tree Grid
+      - listitem [ref=e185]:
+        - link "Auth" [ref=e186] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e188] [cursor=pointer]
+          - generic: Auth
+          - img [ref=e195] [cursor=pointer]
+        - list:
+          - listitem [ref=e200]:
+            - link "Login" [ref=e201] [cursor=pointer]:
+              - /url: /auth/login
+              - generic: Login
+          - listitem [ref=e202]:
+            - link "Register" [ref=e203] [cursor=pointer]:
+              - /url: /auth/register
+              - generic: Register
+          - listitem [ref=e204]:
+            - link "Request Password" [ref=e205] [cursor=pointer]:
+              - /url: /auth/request-password
+              - generic: Request Password
+          - listitem [ref=e206]:
+            - link "Reset Password" [ref=e207] [cursor=pointer]:
+              - /url: /auth/reset-password
+              - generic: Reset Password
+    - generic [ref=e208]:
+      - generic [ref=e211]:
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - generic [ref=e218]: 
+            - generic [ref=e219]:
+              - generic [ref=e220]: Light
+              - generic [ref=e221]: "ON"
+          - generic [ref=e224]:
+            - generic [ref=e227]: 
+            - generic [ref=e228]:
+              - generic [ref=e229]: Roller Shades
+              - generic [ref=e230]: "ON"
+          - generic [ref=e233]:
+            - generic [ref=e236]: 
+            - generic [ref=e237]:
+              - generic [ref=e238]: Wireless Audio
+              - generic [ref=e239]: "ON"
+          - generic [ref=e242]:
+            - generic [ref=e245]: 
+            - generic [ref=e246]:
+              - generic [ref=e247]: Coffee Maker
+              - generic [ref=e248]: "ON"
+        - generic [ref=e249]:
+          - generic [ref=e253]:
+            - list [ref=e254]:
+              - listitem [ref=e255]:
+                - link "Temperature" [ref=e256] [cursor=pointer]:
+                  - /url: ""
+                  - generic [ref=e257] [cursor=pointer]: Temperature
+              - listitem [ref=e258]:
+                - link "Humidity" [ref=e259] [cursor=pointer]:
+                  - /url: ""
+                  - generic [ref=e260] [cursor=pointer]: Humidity
+            - generic [ref=e261]:
+              - generic [ref=e263]:
+                - img [ref=e265]
+                - generic [ref=e282]:
+                  - generic [ref=e283]: ° 24
+                  - generic [ref=e284]: Celsius
+                - button [ref=e285] [cursor=pointer]:
+                  - img [ref=e287] [cursor=pointer]
+              - generic [ref=e293]:
+                - generic [ref=e295]:
+                  - radio "" [checked] [ref=e296]
+                  - generic [ref=e298]: 
+                - generic [ref=e300]:
+                  - radio "" [ref=e301]
+                  - generic [ref=e303]: 
+                - generic [ref=e305]:
+                  - radio "" [ref=e306]
+                  - generic [ref=e308]: 
+                - generic [ref=e310]:
+                  - radio "" [ref=e311]
+                  - generic [ref=e313]: 
+            - text: "%    "
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - generic [ref=e320]: Consumed
+              - generic [ref=e321]:
+                - text: "816"
+                - generic [ref=e322]: kWh
+            - generic [ref=e323]:
+              - generic [ref=e324]: Spent
+              - generic [ref=e325]:
+                - text: "291"
+                - generic [ref=e326]: USD
+            - button "week" [ref=e328] [cursor=pointer]:
+              - generic [ref=e329] [cursor=pointer]: week
+              - img [ref=e331] [cursor=pointer]
+        - generic [ref=e340]:
+          - generic [ref=e343]:
+            - generic [ref=e345]:
+              - generic [ref=e346]: Room Management
+              - img [ref=e348]:
+                - generic [ref=e355]:
+                  - generic: Kitchen
+                - generic [ref=e359]:
+                  - generic: Bedroom
+                - generic [ref=e363]:
+                  - generic: Hallway
+                - generic [ref=e367]:
+                  - generic: Living Room
+            - generic [ref=e372]:
+              - generic [ref=e373]: My Playlist
+              - generic [ref=e374]:
+                - generic [ref=e377]:
+                  - heading "Harder" [level=4] [ref=e378]
+                  - generic [ref=e379]: Daft Punk
+                - slider [ref=e381]: "0"
+                - generic [ref=e382]:
+                  - generic [ref=e383]: 00:00
+                  - generic [ref=e384]: "- 00:30"
+                - generic [ref=e385]:
+                  - button [ref=e386] [cursor=pointer]:
+                    - img [ref=e388] [cursor=pointer]
+                  - button [ref=e393] [cursor=pointer]:
+                    - img [ref=e395] [cursor=pointer]
+                  - button [ref=e400] [cursor=pointer]:
+                    - img [ref=e402] [cursor=pointer]
+                  - button [ref=e408] [cursor=pointer]:
+                    - img [ref=e410] [cursor=pointer]
+                  - button [ref=e415] [cursor=pointer]:
+                    - img [ref=e417] [cursor=pointer]
+              - generic [ref=e424]:
+                - button [ref=e425] [cursor=pointer]:
+                  - img [ref=e427] [cursor=pointer]
+                - slider [ref=e434]: "100"
+                - button [ref=e436] [cursor=pointer]:
+                  - img [ref=e438] [cursor=pointer]
+          - generic [ref=e448]:
+            - list [ref=e449]:
+              - listitem [ref=e450]:
+                - link "Contacts" [ref=e451] [cursor=pointer]:
+                  - /url: ""
+                  - generic [ref=e452] [cursor=pointer]: Contacts
+              - listitem [ref=e453]:
+                - link "Recent" [ref=e454] [cursor=pointer]:
+                  - /url: ""
+                  - generic [ref=e455] [cursor=pointer]: Recent
+            - list [ref=e457]:
+              - listitem [ref=e458]:
+                - generic [ref=e462]:
+                  - generic [ref=e463]: Nick Jones
+                  - generic [ref=e464]: mobile
+                - img [ref=e466]
+              - listitem [ref=e471]:
+                - generic [ref=e475]:
+                  - generic [ref=e476]: Eva Moor
+                  - generic [ref=e477]: home
+                - img [ref=e479]
+              - listitem [ref=e484]:
+                - generic [ref=e488]:
+                  - generic [ref=e489]: Jack Williams
+                  - generic [ref=e490]: mobile
+                - img [ref=e492]
+              - listitem [ref=e497]:
+                - generic [ref=e501]:
+                  - generic [ref=e502]: Lee Wong
+                  - generic [ref=e503]: mobile
+                - img [ref=e505]
+              - listitem [ref=e510]:
+                - generic [ref=e514]:
+                  - generic [ref=e515]: Alan Thompson
+                  - generic [ref=e516]: home
+                - img [ref=e518]
+              - listitem [ref=e523]:
+                - generic [ref=e527]:
+                  - generic [ref=e528]: Kate Martinez
+                  - generic [ref=e529]: work
+                - img [ref=e531]
+          - generic [ref=e536]:
+            - generic [ref=e538]:
+              - generic [ref=e539]: Solar Energy Consumption
+              - generic [ref=e544]:
+                - generic [ref=e545]: 6.421 kWh
+                - generic [ref=e546]:
+                  - generic [ref=e547]: out of
+                  - text: 8.421 kWh
+            - generic [ref=e549]:
+              - generic [ref=e551]:
+                - generic [ref=e552]: UI Kitten
+                - generic [ref=e553]: "UI Kitten is a framework that contains a set of commonly used UI components styled in a similar way. The most awesome thing: you can change themes on the fly by just passing a different set of variables. 100% native. Give our kitten a try!"
+              - generic [ref=e554]:
+                - link [ref=e555] [cursor=pointer]:
+                  - /url: https://akveo.github.io/react-native-ui-kitten?utm_campaign=ui_kitten%20-%20home%20-%20ngx_admin%20code%20embed&utm_source=ngx_admin&utm_medium=embedded&utm_content=iot_dashboard_kitten_card
+                  - img [ref=e557] [cursor=pointer]
+                - link "" [ref=e562] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/us/app/kitten-tricks/id1246143230
+                  - generic [ref=e563] [cursor=pointer]: 
+                - link "" [ref=e564] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.akveo.kittenTricks
+                  - generic [ref=e565] [cursor=pointer]: 
+                - link [ref=e566] [cursor=pointer]:
+                  - /url: https://github.com/akveo/react-native-ui-kitten
+                  - img [ref=e568] [cursor=pointer]
+          - generic [ref=e572]:
+            - generic [ref=e575]:
+              - generic [ref=e576]: Traffic Consumption
+              - button "month" [ref=e578] [cursor=pointer]:
+                - generic [ref=e579] [cursor=pointer]: month
+                - img [ref=e581] [cursor=pointer]
+            - generic [ref=e592]:
+              - generic [ref=e593]: New York
+              - generic [ref=e594]: Mon 29 May
+              - generic [ref=e595]:
+                - generic [ref=e596]: 20°
+                - img [ref=e598]
+              - generic [ref=e611]:
+                - generic [ref=e612]:
+                  - generic [ref=e613]: max
+                  - generic [ref=e614]: 23°
+                - generic [ref=e615]:
+                  - generic [ref=e616]: min
+                  - generic [ref=e617]: 19°
+                - generic [ref=e618]:
+                  - generic [ref=e619]: wind
+                  - generic [ref=e620]: 4 km/h
+                - generic [ref=e621]:
+                  - generic [ref=e622]: hum
+                  - generic [ref=e623]: 87%
+              - generic [ref=e624]:
+                - generic [ref=e625]:
+                  - generic [ref=e626]: Sun
+                  - generic [ref=e627]: 
+                  - generic [ref=e628]: 17°
+                - generic [ref=e629]:
+                  - generic [ref=e630]: Mon
+                  - generic [ref=e631]: 
+                  - generic [ref=e632]: 19°
+                - generic [ref=e633]:
+                  - generic [ref=e634]: Tue
+                  - generic [ref=e635]: 
+                  - generic [ref=e636]: 22°
+                - generic [ref=e637]:
+                  - generic [ref=e638]: Wed
+                  - generic [ref=e639]: 
+                  - generic [ref=e640]: 21°
+          - generic [ref=e643]:
+            - generic [ref=e644]:
+              - text: Security Cameras
+              - button "" [ref=e645] [cursor=pointer]:
+                - generic [ref=e646] [cursor=pointer]: 
+              - button [ref=e647] [cursor=pointer]:
+                - img [ref=e649] [cursor=pointer]
+            - generic [ref=e658]:
+              - generic [ref=e660]: "Camera #1"
+              - generic [ref=e662]: "Camera #2"
+              - generic [ref=e664]: "Camera #3"
+              - generic [ref=e666]: "Camera #4"
+            - generic [ref=e668]:
+              - generic [ref=e669]:
+                - img [ref=e671]
+                - text: Pause
+              - generic [ref=e678]:
+                - img [ref=e680]
+                - text: Logs
+              - generic [ref=e690]:
+                - img [ref=e692]
+                - text: Search
+              - generic [ref=e697]:
+                - img [ref=e699]
+                - text: Setup
+      - navigation [ref=e706]:
+        - generic [ref=e707]:
+          - generic [ref=e708]:
+            - text: Created with ♥ by
+            - link "Akveo" [ref=e710] [cursor=pointer]:
+              - /url: https://akveo.page.link/8V2f
+            - text: "2019"
+          - generic [ref=e711]:
+            - link "" [ref=e712] [cursor=pointer]:
+              - /url: "#"
+            - link "" [ref=e713] [cursor=pointer]:
+              - /url: "#"
+            - link "" [ref=e714] [cursor=pointer]:
+              - /url: "#"
+            - link "" [ref=e715] [cursor=pointer]:
+              - /url: "#"
+```
