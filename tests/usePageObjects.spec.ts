@@ -10,7 +10,7 @@ test.beforeEach(async ({ page }) => {
 })
 
 test('navigate to form page', async ({ page }) => {
-    // test.describe.configure({retries:2})
+    //test.describe.configure({retries:2})
     //test.describe.configure({mode: 'serial'})
     const pm = new PageManager(page)
     await pm.navigateTo().formLayoutsPage()
@@ -29,12 +29,12 @@ test('login', async ({ page }) => {
     await pm.onFormLayoutsPage().submitForm1(randomFullName, randomEmail, false)
     await page.locator('nb-card', { hasText: "Inline form" }).screenshot({ path: 'screenshots/locator.png' })
     await pm.navigateTo().datePickerPage()
-    // await pm.onDatePickerPage().selectDate(5)
+    //await pm.onDatePickerPage().selectDate(5)
     await pm.onDatePickerPage().selectDateWithrange(6, 15)
 });
 
 
-test('test test @smoke', async ({ pageManager, formLayoutsPage }) => {
+test('test @smoke', async ({ pageManager, formLayoutsPage }) => {
     const randomFullName = faker.person.fullName()
     const randomEmail = `${randomFullName.replace(' ', '')}${faker.number.int(1000)}@test.com`
     await pageManager.onFormLayoutsPage().submitForm(process.env.USERNAME, process.env.PASSWORD, "Option 1")

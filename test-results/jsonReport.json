@@ -158,8 +158,8 @@
           "column": 6,
           "specs": [
             {
-              "title": "web tables",
-              "ok": false,
+              "title": "list and dropdown",
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -170,60 +170,25 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 150,
+                      "workerIndex": 155,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 9518,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m\"50\"\u001b[39m\nReceived: \u001b[31m\" No data found \"\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m\"50\"\u001b[39m\nReceived: \u001b[31m\" No data found \"\u001b[39m\n    at /Users/vermesant/Desktop/page object playwright/demo-playwright-teo/tests/components.spec.ts:143:39",
-                        "location": {
-                          "file": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/tests/components.spec.ts",
-                          "column": 39,
-                          "line": 143
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 141 |\u001b[39m                     expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'table'\u001b[39m)\u001b[33m.\u001b[39mtextContent())\u001b[33m.\u001b[39mtoContain(\u001b[32m'No data found'\u001b[39m)\n \u001b[90m 142 |\u001b[39m                 } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 143 |\u001b[39m                     expect(cellvalue)\u001b[33m.\u001b[39mtoEqual(age)\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 144 |\u001b[39m                 }\n \u001b[90m 145 |\u001b[39m             }\n \u001b[90m 146 |\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/tests/components.spec.ts",
-                            "column": 39,
-                            "line": 143
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m\"50\"\u001b[39m\nReceived: \u001b[31m\" No data found \"\u001b[39m\n\n\u001b[0m \u001b[90m 141 |\u001b[39m                     expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'table'\u001b[39m)\u001b[33m.\u001b[39mtextContent())\u001b[33m.\u001b[39mtoContain(\u001b[32m'No data found'\u001b[39m)\n \u001b[90m 142 |\u001b[39m                 } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 143 |\u001b[39m                     expect(cellvalue)\u001b[33m.\u001b[39mtoEqual(age)\n \u001b[90m     |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 144 |\u001b[39m                 }\n \u001b[90m 145 |\u001b[39m             }\n \u001b[90m 146 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/vermesant/Desktop/page object playwright/demo-playwright-teo/tests/components.spec.ts:143:39\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 2917,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-09-09T08:57:06.179Z",
+                      "startTime": "2025-09-09T09:19:36.963Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results/components-layouts-web-tables-chromium/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results/components-layouts-web-tables-chromium/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/tests/components.spec.ts",
-                        "column": 39,
-                        "line": 143
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
-              "id": "21914d481cf54b88bd8b-7db3fa13dedf61cec1e0",
+              "id": "21914d481cf54b88bd8b-45b9cd1261fa7f3f33c8",
               "file": "components.spec.ts",
-              "line": 107,
+              "line": 50,
               "column": 9
             }
           ]
@@ -233,11 +198,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-09-09T08:57:05.621Z",
-    "duration": 10122.427999999374,
-    "expected": 0,
+    "startTime": "2025-09-09T09:19:36.400Z",
+    "duration": 3526.5509999999776,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }

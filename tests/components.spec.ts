@@ -15,7 +15,6 @@ test.describe('layouts', () => {
     test('input fields', async ({ page }) => {
 
         const usingTheGridEmailInput = page.locator('nb-card', { hasText: "Using the Grid" }).getByRole('textbox', { name: "Email" })
-
         await usingTheGridEmailInput.fill("test@test.com")
         await usingTheGridEmailInput.clear()
         await usingTheGridEmailInput.pressSequentially("test1@test.com", { delay: 500 })
@@ -28,7 +27,6 @@ test.describe('layouts', () => {
 
     test('radio buttons', async ({ page }) => {
         const usingTheGridForm = page.locator('nb-card', { hasText: "Using the Grid" })
-        await usingTheGridForm.getByLabel('Option 1').check({ force: true })
         //the most recommended
         await usingTheGridForm.getByRole('radio', { name: "Option 1" }).check({ force: true })
 
@@ -59,16 +57,17 @@ test.describe('layouts', () => {
         const optionList = page.locator('nb-option-list nb-option')
         await expect(optionList).toHaveText(["Light", "Dark", "Cosmic", "Corporate"])
         await optionList.filter({ hasText: "Cosmic" }).click()
+        await page.waitForTimeout(2000)
 
         const header = page.locator('nb-layout-header')
 
-        await expect(header).toHaveCSS('background-color', 'rgb(50,50,89)')
+        await expect(header).toHaveCSS('background-color', ('rgb(50, 50, 89)'))
 
         const colors = {
-            "Light": "rgb(255,255,255)",
-            "Dark": "rgb(34,43,69)",
-            "Cosmic": "rgb(50,50,89)",
-            "Corporate": "rgb(255,255,255)"
+            "Light": "rgb(255, 255, 255)",
+            "Dark": "rgb(34, 43, 69)",
+            "Cosmic": "rgb(50, 50, 89)",
+            "Corporate": "rgb(255, 255, 255)"
         }
 
         await dropdownMenu.click()
@@ -84,8 +83,8 @@ test.describe('layouts', () => {
     test('tooltips', async ({ page }) => {
         await page.getByText("Modal & Overlays").click();
         await page.getByText("Tooltip").click();
-        const tooltipcard = page.locator('nb-card', { hasText: "Tooltip Placements" })
-        await tooltipcard.getByRole('button', { name: 'Top' }).hover()
+        const tooltipCard = page.locator('nb-card', { hasText: "Tooltip Placements" })
+        await tooltipCard.getByRole('button', { name: 'Top' }).hover()
         const tooltip = await page.locator('nb-tooltip').textContent()
         expect(tooltip).toEqual('This is a tooltip')
 
@@ -107,15 +106,15 @@ test.describe('layouts', () => {
     test('web tables', async ({ page }) => {
         await page.getByText("Tables & Data").click();
         await page.getByText("Smart Table").click();
-        //the the row by any text in this row
-        const targeRow = page.getByRole('row', { name: "twitter@outlook.com" })
-        await targeRow.locator('.nb-edit').click()
+
+        //get the row by any text in this row
+        const targetRow = page.getByRole('row', { name: "twitter@outlook.com" })
+        await targetRow.locator('.nb-edit').click()
         await page.locator('input-editor').getByPlaceholder('Age').clear()
         await page.locator('input-editor').getByPlaceholder('Age').fill('35')
         await page.locator('.nb-checkmark').click()
 
         //get row based on the value in the specific column
-
         await page.locator('.ng2-smart-pagination-nav').getByText('2').click()
         const targetRowById = page.getByRole('row', { name: "1" }).filter({ has: page.locator('td').nth(1).getByText('11') })
         await targetRowById.locator('.nb-edit').click()
@@ -125,7 +124,7 @@ test.describe('layouts', () => {
         await expect(targetRowById.locator('td').nth(5)).toHaveText('test@test.com')
 
         //filter table
-        const ages = ["20", "30", "40", "50"]
+        const ages = ["20", "30", "40", "200"]
         for (let age of ages) {
 
             await page.locator('input-filter').getByPlaceholder("age").clear()
@@ -149,19 +148,11 @@ test.describe('layouts', () => {
     })
 
     test('date picker', async ({ page }) => {
-
-        // const calendarInpoutField = page.getByPlaceholder("Form Picker")
-        // await calendarInpoutField.click()
-        // //list of the date cells
-        // await page.locator('[class="day-cell ng-star-inserted]').getByText('1', { exact: true }).click()
-        // await expect(calendarInpoutField).toHaveValue("jun 1 2023")
-
         await page.getByText("Forms").click()
         await page.getByText("Datepicker").click();
 
         const calendarInpoutField = page.getByPlaceholder("Form Picker")
         await calendarInpoutField.click()
-
 
         let date = new Date()
         date.setDate(date.getDate() + 7)
@@ -218,8 +209,6 @@ test.describe('layouts', () => {
     })
 
     test('drag and drop with iframes', async ({ page, globalQaURL }) => {
-        //await page.goto(globalQaURL)
-        //await page.goto(process.env.URL)
         await page.goto('https://www.globalsqa.com/demo-site/draganddrop/')
         const frame = page.frameLocator('[rel-title="Photo Manager"] iframe')
         await frame.locator('li', { hasText: "High Tatras 2" }).dragTo(frame.locator('#trash'))

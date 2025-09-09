@@ -1,37 +1,6 @@
-<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="10.122427999999374">
-<testsuite name="components.spec.ts" timestamp="2025-09-09T08:57:05.924Z" hostname="chromium" tests="1" failures="1" skipped="0" time="9.518" errors="0">
-<testcase name="layouts › web tables" classname="components.spec.ts" time="9.518">
-<failure message="components.spec.ts:107:9 web tables" type="FAILURE">
-<![CDATA[  [chromium] › components.spec.ts:107:9 › layouts › web tables ─────────────────────────────────────
-
-    Error: expect(received).toEqual(expected) // deep equality
-
-    Expected: "50"
-    Received: " No data found "
-
-      141 |                     expect(await page.getByRole('table').textContent()).toContain('No data found')
-      142 |                 } else {
-    > 143 |                     expect(cellvalue).toEqual(age)
-          |                                       ^
-      144 |                 }
-      145 |             }
-      146 |
-        at /Users/vermesant/Desktop/page object playwright/demo-playwright-teo/tests/components.spec.ts:143:39
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ../test-results/components-layouts-web-tables-chromium/test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ../test-results/components-layouts-web-tables-chromium/error-context.md
-]]>
-</failure>
-<system-out>
-<![CDATA[
-[[ATTACHMENT|components-layouts-web-tables-chromium/test-failed-1.png]]
-
-[[ATTACHMENT|components-layouts-web-tables-chromium/error-context.md]]
-]]>
-</system-out>
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="3.526550999999978">
+<testsuite name="components.spec.ts" timestamp="2025-09-09T09:19:36.703Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.917" errors="0">
+<testcase name="layouts › list and dropdown" classname="components.spec.ts" time="2.917">
 </testcase>
 </testsuite>
 </testsuites>
