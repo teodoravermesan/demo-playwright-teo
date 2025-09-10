@@ -16,6 +16,16 @@
     "preserveOutput": "always",
     "reporter": [
       [
+        "list",
+        null
+      ],
+      [
+        "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/node_modules/@argos-ci/playwright/dist/reporter.js",
+        {
+          "uploadToArgos": false
+        }
+      ],
+      [
         "json",
         {
           "outputFile": "test-results/jsonReport.json"
@@ -128,17 +138,20 @@
     "updateSourceMethod": "3way",
     "version": "1.55.0",
     "workers": 1,
-    "webServer": null
+    "webServer": {
+      "command": "npm run start",
+      "url": "http://localhost:4200/"
+    }
   },
   "suites": [
     {
-      "title": "usePageObjects.spec.ts",
-      "file": "usePageObjects.spec.ts",
+      "title": "locators.spec.ts",
+      "file": "locators.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "navigate to form page",
+          "title": "Timeouts",
           "ok": true,
           "tags": [],
           "tests": [
@@ -150,15 +163,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7947,
+                  "duration": 21976,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-09-04T18:44:59.205Z",
+                  "startTime": "2025-09-10T07:44:00.311Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -166,9 +179,9 @@
               "status": "expected"
             }
           ],
-          "id": "fa018c391591bb0319e0-a273b48853db97e7ead2",
-          "file": "usePageObjects.spec.ts",
-          "line": 11,
+          "id": "abbba80301da790c63e3-03dc5b6e19d8c366d3e0",
+          "file": "locators.spec.ts",
+          "line": 126,
           "column": 5
         }
       ]
@@ -176,8 +189,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-09-04T18:44:58.580Z",
-    "duration": 8987.815000000002,
+    "startTime": "2025-09-10T07:43:59.702Z",
+    "duration": 23021.234000000004,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

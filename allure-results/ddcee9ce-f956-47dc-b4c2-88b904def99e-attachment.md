@@ -1,0 +1,305 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e7]:
+  - navigation [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - link [ref=e13] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e15] [cursor=pointer]
+          - link "PW-test" [ref=e23] [cursor=pointer]:
+            - /url: "#"
+            - text: PW-
+            - generic [ref=e24] [cursor=pointer]: test
+        - button "Light" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27] [cursor=pointer]: Light
+          - img [ref=e29] [cursor=pointer]
+      - generic [ref=e35]:
+        - button [ref=e38] [cursor=pointer]:
+          - img [ref=e40] [cursor=pointer]
+        - link [ref=e46] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e48] [cursor=pointer]
+        - link [ref=e54] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e56] [cursor=pointer]
+        - generic [ref=e66] [cursor=pointer]: Nick Jones
+  - generic [ref=e67]:
+    - list [ref=e72]:
+      - listitem [ref=e73]:
+        - link "IoT Dashboard" [ref=e74] [cursor=pointer]:
+          - /url: /pages/iot-dashboard
+          - img [ref=e76] [cursor=pointer]
+          - generic: IoT Dashboard
+      - listitem [ref=e81]:
+        - generic [ref=e82]: FEATURES
+      - listitem [ref=e83]:
+        - link "Forms" [expanded] [ref=e84] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e86] [cursor=pointer]
+          - generic: Forms
+          - img [ref=e93] [cursor=pointer]
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - link "Form Layouts" [ref=e100] [cursor=pointer]:
+              - /url: /pages/forms/layouts
+              - generic: Form Layouts
+          - listitem [ref=e101]:
+            - link "Datepicker" [ref=e102] [cursor=pointer]:
+              - /url: /pages/forms/datepicker
+              - generic: Datepicker
+      - listitem [ref=e103]:
+        - link "Modal & Overlays" [ref=e104] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e106] [cursor=pointer]
+          - generic: Modal & Overlays
+          - img [ref=e114] [cursor=pointer]
+        - list:
+          - listitem [ref=e119]:
+            - link "Dialog" [ref=e120] [cursor=pointer]:
+              - /url: /pages/modal-overlays/dialog
+              - generic: Dialog
+          - listitem [ref=e121]:
+            - link "Window" [ref=e122] [cursor=pointer]:
+              - /url: /pages/modal-overlays/window
+              - generic: Window
+          - listitem [ref=e123]:
+            - link "Popover" [ref=e124] [cursor=pointer]:
+              - /url: /pages/modal-overlays/popover
+              - generic: Popover
+          - listitem [ref=e125]:
+            - link "Toastr" [ref=e126] [cursor=pointer]:
+              - /url: /pages/modal-overlays/toastr
+              - generic: Toastr
+          - listitem [ref=e127]:
+            - link "Tooltip" [ref=e128] [cursor=pointer]:
+              - /url: /pages/modal-overlays/tooltip
+              - generic: Tooltip
+      - listitem [ref=e129]:
+        - link "Extra Components" [ref=e130] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e132] [cursor=pointer]
+          - generic: Extra Components
+          - img [ref=e141] [cursor=pointer]
+        - list:
+          - listitem [ref=e146]:
+            - link "Calendar" [ref=e147] [cursor=pointer]:
+              - /url: /pages/extra-components/calendar
+              - generic: Calendar
+      - listitem [ref=e148]:
+        - link "Charts" [ref=e149] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e151] [cursor=pointer]
+          - generic: Charts
+          - img [ref=e158] [cursor=pointer]
+        - list:
+          - listitem [ref=e163]:
+            - link "Echarts" [ref=e164] [cursor=pointer]:
+              - /url: /pages/charts/echarts
+              - generic: Echarts
+      - listitem [ref=e165]:
+        - link "Tables & Data" [expanded] [ref=e166] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e168] [cursor=pointer]
+          - generic: Tables & Data
+          - img [ref=e177] [cursor=pointer]
+        - list [ref=e182]:
+          - listitem [ref=e183]:
+            - link "Smart Table" [ref=e184] [cursor=pointer]:
+              - /url: /pages/tables/smart-table
+              - generic: Smart Table
+          - listitem [ref=e185]:
+            - link "Tree Grid" [ref=e186] [cursor=pointer]:
+              - /url: /pages/tables/tree-grid
+              - generic: Tree Grid
+      - listitem [ref=e187]:
+        - link "Auth" [ref=e188] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e190] [cursor=pointer]
+          - generic: Auth
+          - img [ref=e197] [cursor=pointer]
+        - list:
+          - listitem [ref=e202]:
+            - link "Login" [ref=e203] [cursor=pointer]:
+              - /url: /auth/login
+              - generic: Login
+          - listitem [ref=e204]:
+            - link "Register" [ref=e205] [cursor=pointer]:
+              - /url: /auth/register
+              - generic: Register
+          - listitem [ref=e206]:
+            - link "Request Password" [ref=e207] [cursor=pointer]:
+              - /url: /auth/request-password
+              - generic: Request Password
+          - listitem [ref=e208]:
+            - link "Reset Password" [ref=e209] [cursor=pointer]:
+              - /url: /auth/reset-password
+              - generic: Reset Password
+    - generic [ref=e210]:
+      - generic [ref=e215]:
+        - generic [ref=e216]: Smart Table
+        - table [ref=e219]:
+          - rowgroup [ref=e220]:
+            - row "Actions ID First Name Last Name Username E-mail Age" [ref=e221]:
+              - cell "Actions" [ref=e222]:
+                - generic [ref=e223]: Actions
+              - cell "ID" [ref=e224]:
+                - link "ID" [ref=e228] [cursor=pointer]:
+                  - /url: "#"
+              - cell "First Name" [ref=e229]:
+                - link "First Name" [ref=e233] [cursor=pointer]:
+                  - /url: "#"
+              - cell "Last Name" [ref=e234]:
+                - link "Last Name" [ref=e238] [cursor=pointer]:
+                  - /url: "#"
+              - cell "Username" [ref=e239]:
+                - link "Username" [ref=e243] [cursor=pointer]:
+                  - /url: "#"
+              - cell "E-mail" [ref=e244]:
+                - link "E-mail" [ref=e248] [cursor=pointer]:
+                  - /url: "#"
+              - cell "Age" [ref=e249]:
+                - link "Age" [ref=e253] [cursor=pointer]:
+                  - /url: "#"
+            - row " 20" [ref=e254]:
+              - cell "" [ref=e255]:
+                - link "" [ref=e256] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e257] [cursor=pointer]: 
+              - cell [ref=e258]:
+                - textbox "ID" [ref=e263]
+              - cell [ref=e264]:
+                - textbox "First Name" [ref=e269]
+              - cell [ref=e270]:
+                - textbox "Last Name" [ref=e275]
+              - cell [ref=e276]:
+                - textbox "Username" [ref=e281]
+              - cell [ref=e282]:
+                - textbox "E-mail" [ref=e287]
+              - cell "20" [ref=e288]:
+                - textbox "Age" [active] [ref=e293]: "20"
+          - rowgroup [ref=e294]:
+            - row "  4 John Snow @snow snow@gmail.com 20" [ref=e295]:
+              - cell " " [ref=e296]:
+                - generic [ref=e297]:
+                  - link "" [ref=e298] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e299] [cursor=pointer]: 
+                  - link "" [ref=e300] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e301] [cursor=pointer]: 
+              - cell "4" [ref=e302]:
+                - generic [ref=e306]: "4"
+              - cell "John" [ref=e307]:
+                - generic [ref=e311]: John
+              - cell "Snow" [ref=e312]:
+                - generic [ref=e316]: Snow
+              - cell "@snow" [ref=e317]:
+                - generic [ref=e321]: "@snow"
+              - cell "snow@gmail.com" [ref=e322]:
+                - generic [ref=e326]: snow@gmail.com
+              - cell "20" [ref=e327]:
+                - generic [ref=e331]: "20"
+            - row "  24 Cote Holcomb @Rowe coterowe@comtours.com 20" [ref=e332]:
+              - cell " " [ref=e333]:
+                - generic [ref=e334]:
+                  - link "" [ref=e335] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e336] [cursor=pointer]: 
+                  - link "" [ref=e337] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e338] [cursor=pointer]: 
+              - cell "24" [ref=e339]:
+                - generic [ref=e343]: "24"
+              - cell "Cote" [ref=e344]:
+                - generic [ref=e348]: Cote
+              - cell "Holcomb" [ref=e349]:
+                - generic [ref=e353]: Holcomb
+              - cell "@Rowe" [ref=e354]:
+                - generic [ref=e358]: "@Rowe"
+              - cell "coterowe@comtours.com" [ref=e359]:
+                - generic [ref=e363]: coterowe@comtours.com
+              - cell "20" [ref=e364]:
+                - generic [ref=e368]: "20"
+            - row "  43 Valencia Spence @Olsen valenciaolsen@comtours.com 20" [ref=e369]:
+              - cell " " [ref=e370]:
+                - generic [ref=e371]:
+                  - link "" [ref=e372] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e373] [cursor=pointer]: 
+                  - link "" [ref=e374] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e375] [cursor=pointer]: 
+              - cell "43" [ref=e376]:
+                - generic [ref=e380]: "43"
+              - cell "Valencia" [ref=e381]:
+                - generic [ref=e385]: Valencia
+              - cell "Spence" [ref=e386]:
+                - generic [ref=e390]: Spence
+              - cell "@Olsen" [ref=e391]:
+                - generic [ref=e395]: "@Olsen"
+              - cell "valenciaolsen@comtours.com" [ref=e396]:
+                - generic [ref=e400]: valenciaolsen@comtours.com
+              - cell "20" [ref=e401]:
+                - generic [ref=e405]: "20"
+            - row "  52 Moran Baxter @Johns moranjohns@comtours.com 20" [ref=e406]:
+              - cell " " [ref=e407]:
+                - generic [ref=e408]:
+                  - link "" [ref=e409] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e410] [cursor=pointer]: 
+                  - link "" [ref=e411] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e412] [cursor=pointer]: 
+              - cell "52" [ref=e413]:
+                - generic [ref=e417]: "52"
+              - cell "Moran" [ref=e418]:
+                - generic [ref=e422]: Moran
+              - cell "Baxter" [ref=e423]:
+                - generic [ref=e427]: Baxter
+              - cell "@Johns" [ref=e428]:
+                - generic [ref=e432]: "@Johns"
+              - cell "moranjohns@comtours.com" [ref=e433]:
+                - generic [ref=e437]: moranjohns@comtours.com
+              - cell "20" [ref=e438]:
+                - generic [ref=e442]: "20"
+            - row "  59 Rodriquez Saunders @Harper rodriquezharper@comtours.com 20" [ref=e443]:
+              - cell " " [ref=e444]:
+                - generic [ref=e445]:
+                  - link "" [ref=e446] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e447] [cursor=pointer]: 
+                  - link "" [ref=e448] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e449] [cursor=pointer]: 
+              - cell "59" [ref=e450]:
+                - generic [ref=e454]: "59"
+              - cell "Rodriquez" [ref=e455]:
+                - generic [ref=e459]: Rodriquez
+              - cell "Saunders" [ref=e460]:
+                - generic [ref=e464]: Saunders
+              - cell "@Harper" [ref=e465]:
+                - generic [ref=e469]: "@Harper"
+              - cell "rodriquezharper@comtours.com" [ref=e470]:
+                - generic [ref=e474]: rodriquezharper@comtours.com
+              - cell "20" [ref=e475]:
+                - generic [ref=e479]: "20"
+      - navigation [ref=e481]:
+        - generic [ref=e482]:
+          - generic [ref=e483]:
+            - text: Created with ♥ by
+            - link "Akveo" [ref=e485] [cursor=pointer]:
+              - /url: https://akveo.page.link/8V2f
+            - text: "2019"
+          - generic [ref=e486]:
+            - link "" [ref=e487] [cursor=pointer]:
+              - /url: "#"
+            - link "" [ref=e488] [cursor=pointer]:
+              - /url: "#"
+            - link "" [ref=e489] [cursor=pointer]:
+              - /url: "#"
+            - link "" [ref=e490] [cursor=pointer]:
+              - /url: "#"
+```

@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="8.987815000000003">
-<testsuite name="usePageObjects.spec.ts" timestamp="2025-09-04T18:44:58.875Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.947" errors="0">
-<testcase name="navigate to form page" classname="usePageObjects.spec.ts" time="7.947">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="23.021234000000003">
+<testsuite name="locators.spec.ts" timestamp="2025-09-10T07:44:00.049Z" hostname="chromium" tests="1" failures="0" skipped="0" time="21.976" errors="0">
+<testcase name="Timeouts" classname="locators.spec.ts" time="21.976">
 </testcase>
 </testsuite>
 </testsuites>

@@ -1,0 +1,232 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e7]:
+        - generic:
+          - generic:
+            - generic:
+              - button [ref=e8] [cursor=pointer]
+              - textbox "Search..." [ref=e9]
+          - link "pinterest" [ref=e10] [cursor=pointer]:
+            - /url: https://in.pinterest.com/globalsqa/
+          - link "twitter" [ref=e11] [cursor=pointer]:
+            - /url: https://twitter.com/Global_SQA
+          - link "linkedin" [ref=e12] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/globalsqa
+          - link "google" [ref=e13] [cursor=pointer]:
+            - /url: https://plus.google.com/103761557396023531439/posts
+          - link "facebook" [ref=e14] [cursor=pointer]:
+            - /url: https://facebook.com/globalsqa
+          - generic [ref=e16]: contact@globalsqa.com
+      - generic [ref=e19]:
+        - link "GlobalSQA" [ref=e22] [cursor=pointer]:
+          - /url: https://www.globalsqa.com/
+          - img "GlobalSQA" [ref=e23] [cursor=pointer]
+        - generic [ref=e24]:
+          - list:
+            - listitem [ref=e25]:
+              - link "About" [ref=e26] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/about/
+            - listitem [ref=e27]:
+              - link "CheatSheets" [ref=e28] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/cheatsheets/
+            - listitem [ref=e29]:
+              - link "Free Ebooks" [ref=e30] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/free-ebooks/
+                - text: Free Ebooks
+            - listitem [ref=e32]:
+              - link "Tester’s Hub" [ref=e33] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/testers-hub/
+                - text: Tester’s Hub
+              - text:  
+            - listitem [ref=e35]:
+              - link "Contact Us" [ref=e36] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/contact-us/
+      - text:    
+    - generic [ref=e37]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - link "Home" [ref=e43] [cursor=pointer]:
+            - /url: https://www.globalsqa.com/
+            - generic [ref=e44] [cursor=pointer]: Home
+          - link "Demo Testing Site" [ref=e45] [cursor=pointer]:
+            - /url: https://www.globalsqa.com/demo-site/
+            - generic [ref=e46] [cursor=pointer]: Demo Testing Site
+          - link "Drag And Drop" [ref=e47] [cursor=pointer]:
+            - /url: https://www.globalsqa.com/demo-site/draganddrop/
+            - generic [ref=e48] [cursor=pointer]: Drag And Drop
+        - heading "Drag And Drop" [level=1] [ref=e50]
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - heading "Interaction" [level=4] [ref=e56]:
+              - generic [ref=e57]: Interaction
+            - list [ref=e59]:
+              - listitem [ref=e60]:
+                - link "Sortable" [ref=e61] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/sorting/
+                  - generic [ref=e62] [cursor=pointer]: Sortable
+              - listitem [ref=e63]:
+                - link "Drag And Drop" [ref=e64] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/draganddrop/
+                  - generic [ref=e65] [cursor=pointer]: Drag And Drop
+              - listitem [ref=e66]:
+                - link "Select Elements" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/select-elements/
+                  - generic [ref=e68] [cursor=pointer]: Select Elements
+              - listitem [ref=e69]:
+                - link "Draggable Boxes" [ref=e70] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/draggableboxes/
+                  - generic [ref=e71] [cursor=pointer]: Draggable Boxes
+              - listitem [ref=e72]:
+                - link "DropDown Menu" [ref=e73] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/select-dropdown-menu/
+                  - generic [ref=e74] [cursor=pointer]: DropDown Menu
+          - generic [ref=e75]:
+            - heading "Widgets" [level=4] [ref=e76]:
+              - generic [ref=e77]: Widgets
+            - list [ref=e79]:
+              - listitem [ref=e80]:
+                - link "Tooltip" [ref=e81] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/tooltip/
+                  - generic [ref=e82] [cursor=pointer]: Tooltip
+              - listitem [ref=e83]:
+                - link "Sliders" [ref=e84] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/sliders/
+                  - generic [ref=e85] [cursor=pointer]: Sliders
+              - listitem [ref=e86]:
+                - link "Spinner" [ref=e87] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/spinner/
+                  - generic [ref=e88] [cursor=pointer]: Spinner
+              - listitem [ref=e89]:
+                - link "DatePicker" [ref=e90] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/datepicker/
+                  - generic [ref=e91] [cursor=pointer]: DatePicker
+              - listitem [ref=e92]:
+                - link "Progress Bar" [ref=e93] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/progress-bar/
+                  - generic [ref=e94] [cursor=pointer]: Progress Bar
+              - listitem [ref=e95]:
+                - link "Dialog Boxes" [ref=e96] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/dialog-boxes/
+                  - generic [ref=e97] [cursor=pointer]: Dialog Boxes
+              - listitem [ref=e98]:
+                - link "Auto Complete" [ref=e99] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/auto-complete/
+                  - generic [ref=e100] [cursor=pointer]: Auto Complete
+              - listitem [ref=e101]:
+                - link "Accordion And Tabs" [ref=e102] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/accordion-and-tabs/
+                  - generic [ref=e103] [cursor=pointer]: Accordion And Tabs
+          - generic:
+            - iframe
+          - generic:
+            - iframe
+          - generic:
+            - iframe
+        - generic [ref=e105]:
+          - list [ref=e106]:
+            - tab "Photo Manager" [ref=e107] [cursor=pointer]
+            - tab "Accepted Elements" [ref=e108] [cursor=pointer]
+            - tab "Propagation" [ref=e109] [cursor=pointer]
+          - paragraph [ref=e112]:
+            - iframe [ref=e113]:
+              - generic [active] [ref=f1e1]:
+                - generic [ref=f1e2]:
+                  - list [ref=f1e3]:
+                    - listitem [ref=f1e4]:
+                      - heading "High Tatras" [level=5] [ref=f1e5]
+                      - img "The peaks of High Tatras" [ref=f1e6]
+                      - link "View larger" [ref=f1e7] [cursor=pointer]:
+                        - /url: images/high_tatras.jpg
+                      - link "Delete image" [ref=f1e8] [cursor=pointer]:
+                        - /url: link/to/trash/script/when/we/have/js/off
+                    - listitem [ref=f1e9]:
+                      - heading "High Tatras 2" [level=5] [ref=f1e10]
+                      - img "The chalet at the Green mountain lake" [ref=f1e11]
+                      - link "View larger" [ref=f1e12] [cursor=pointer]:
+                        - /url: images/high_tatras2.jpg
+                      - link "Delete image" [ref=f1e13] [cursor=pointer]:
+                        - /url: link/to/trash/script/when/we/have/js/off
+                    - listitem [ref=f1e14]:
+                      - heading "High Tatras 3" [level=5] [ref=f1e15]
+                      - img "Planning the ascent" [ref=f1e16]
+                      - link "View larger" [ref=f1e17] [cursor=pointer]:
+                        - /url: images/high_tatras3.jpg
+                      - link "Delete image" [ref=f1e18] [cursor=pointer]:
+                        - /url: link/to/trash/script/when/we/have/js/off
+                    - listitem [ref=f1e19]:
+                      - heading "High Tatras 4" [level=5] [ref=f1e20]
+                      - img "On top of Kozi kopka" [ref=f1e21]
+                      - link "View larger" [ref=f1e22] [cursor=pointer]:
+                        - /url: images/high_tatras4.jpg
+                      - link "Delete image" [ref=f1e23] [cursor=pointer]:
+                        - /url: link/to/trash/script/when/we/have/js/off
+                  - heading "Trash Trash" [level=4] [ref=f1e25]:
+                    - generic [ref=f1e26]: Trash
+                    - text: Trash
+                - generic [ref=f1e27]:
+                  - paragraph [ref=f1e28]: You can delete an image either by dragging it to the Trash or by clicking the trash icon.
+                  - paragraph [ref=f1e29]: You can "recycle" an image by dragging it back to the gallery or by clicking the recycle icon.
+                  - paragraph [ref=f1e30]: You can view larger image by clicking the zoom icon. Selenium Practice dialog widget is used for the modal window.
+            - insertion [ref=e114]
+    - generic [ref=e115]:
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - heading "Footer Widget Area 1" [level=3] [ref=e119]
+          - paragraph [ref=e120]:
+            - link "Assign a widget to this area now." [ref=e121] [cursor=pointer]:
+              - /url: https://www.globalsqa.com/wp-admin/widgets.php
+        - generic [ref=e122]:
+          - heading "Footer Widget Area 2" [level=3] [ref=e123]
+          - paragraph [ref=e124]:
+            - link "Assign a widget to this area now." [ref=e125] [cursor=pointer]:
+              - /url: https://www.globalsqa.com/wp-admin/widgets.php
+        - generic [ref=e126]:
+          - heading "Footer Widget Area 3" [level=3] [ref=e127]
+          - paragraph [ref=e128]:
+            - link "Assign a widget to this area now." [ref=e129] [cursor=pointer]:
+              - /url: https://www.globalsqa.com/wp-admin/widgets.php
+        - generic [ref=e130]:
+          - heading "Footer Widget Area 4" [level=3] [ref=e131]
+          - paragraph [ref=e132]:
+            - link "Assign a widget to this area now." [ref=e133] [cursor=pointer]:
+              - /url: https://www.globalsqa.com/wp-admin/widgets.php
+      - generic [ref=e138]:
+        - link "pinterest" [ref=e139] [cursor=pointer]:
+          - /url: https://in.pinterest.com/globalsqa/
+        - link "twitter" [ref=e140] [cursor=pointer]:
+          - /url: https://twitter.com/Global_SQA
+        - link "linkedin" [ref=e141] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/globalsqa
+        - link "google" [ref=e142] [cursor=pointer]:
+          - /url: https://plus.google.com/103761557396023531439/posts
+        - link "facebook" [ref=e143] [cursor=pointer]:
+          - /url: https://facebook.com/globalsqa
+        - generic [ref=e144]:
+          - text: "Website Designed & Developed by :"
+          - link "GlobalSQA" [ref=e145] [cursor=pointer]:
+            - /url: https://www.globalsqa.com
+  - generic:
+    - insertion:
+      - generic:
+        - iframe
+  - insertion [ref=e148]:
+    - iframe [ref=e151]:
+      - iframe [ref=f2e1]:
+        - generic [ref=f3e2]:
+          - link "Advertisement" [ref=f3e4] [cursor=pointer]:
+            - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjst5iCExf46uNGvO1uSJU4DylncCppJ18AgtRXlrDh_pYL7RMmtggApGfD1pn_PWDEWRmAhDm0qpoWUlWhOvbDD_46kQZ2oohsRuI9A4vqCSnEfH0etLgKuQTNQ59kYL6iZhYkY5xXq6QzHyYsJ2GDlp3b7LhI70bOkui6u_Uc_u1zVcmRogCY2TnuIq7OI1_K0ax1PFrDWhV4XM4D8_Vo1hwbU_TDAuqPJh--p3I7lIrqv4rU8UMzZWDbOj3tK1JcHHaGR43IO-jGUh4YigpLzsuayVudKgOOP2JV6XGT6hRKQQzz4bMYdVmp5KeklkObhIO-GkQvTa7cv6cwcrdxE1HKFvLTDbP9UDz7iD0rMAgifC2O-LvWeHX_krlT8JhXweb578OIjasgYuBDZxcZkuLy5jtCHFHDS5KmFXpIFryQMHpWKXRVw-uKJo07B_itOTkjUOicwXfkCYteWHDSZoqB5VvIfqiEoMGcLqiDO-75RFW0wBUG0c4w4KgExtc3N59goN1K57P7I4yDlaER1XhnCgltBqwZ9OXTj9ELyJcAmgf6gxj_0ok8hpqfXNH_PD7xucTcVgEibdRk6_3JAYmqeXIokdS3rgY3KxFnWN_GnIHr3LoQpJL4wfG6yBpvs_ZYd9EVwUTXujJ3UeUoj6se56F0gD-4HTdFBIBdamcw6M808JUf_nUpOu4OVdvRJdoHb1oPHzGjzWKBOLRAVHKRaNhkU7wIx_LMjmpLxg02GVysA2ENuQcYGG5fcBNVk3T5pxPLSxBH92o4fHaIyT8v_pRHE8ZqTUBc469s7xPahCGF-JjLkDh7yM59DV_PWU9x5c-mkJ0RsEegLQqjkNwUWGMF3kJQD5rVQmmj80qRHr8yUy_nwVlW6iZRVO3rRp3Kxm3MgqkMXHYSkiuNHfMK2g14aK5sVRLVq2PPfYvEgA0_-UsxN-Sw-cUlKXDfmD8FsC9BlhfCZfZUcV7m9nLYFLylnTcTQbQLCx-Z5zOjZ2ilSNS1e1r9Shf7slC4iOJaaWJstiAvya6cifCki6BpBHTQNmTVzfq25neIweT7AyioeSNtx-_gy88nvcr8YTV2hmsCMyGBhPARQImJg18r7djp5obDtsucKwORmBjMq9vnO6jsBgAirMkM3AZJI-nmRFtJw_aTkuojrF-u9gWXb1C0Uo2mIBVQJOi22CMEYcfC9dSSYD2HXjaXifZnOLgfhH6VYs-h4ZT8lZIZepzCHcSs-V_SZfVlDVW-wO5zEO-PAh4p4ctDPIi-7eCzbKByrcO1OHeH9cN1CzydSTyfthcuqjbrZv9BcrMO5MzTZYvINdyOqaIgwOeGbxTW5vT7Ve5g0WMhC9IH5jp6WZFwHuoFIvjoQNc2YMEpIncwbpC_4CyPZzL489WmEHcP5LXioFhWHyn4zuhufB2-hijAeOhf4BauYn4hNI5Um2ubsO&sai=AMfl-YQBR-LjbWNZqUMaVoGP-VX59Ik2NEchEbIS_AqpgRnNKINyNrw9xxjeblAVB69XOrsdtZx2BcwVkvzRA2A7Ax3iIZjmUpYshuHb_-1lrm5ZSiYavy5CI93S_bvAUkJB3L3-k6GWO5SzTG97llIfa_pK6OoXP8kWic8HuJanOs-PIb1VxLbtxGV5bGdzgFCrPGkomlnOb9vFr9zL98wmf8PlQE8ebtLxnU0JILAPn0jLPFNOQcElVOIjhGcfgk1NACXrbPO13mxKO5GSXOlgUP_KnEo3PNtdfU-DX2nbqWOHDWGsF-VIR7UtDVUKw2C3GA_AQhFUi575qLxjPFez9pHmnIjXTmcc&sig=Cg0ArKJSzDAwVdrSeoJs&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly96eW4uY29t&urlfix=1&adurl=https://www.zyn.com/ro/shop%3Futm_source%3Ddv360%26utm_medium%3Ddisplay%26utm_id%3D34031703%26utm_campaign%3Dro_oralsmokeless-zyn_dis_q4_25_local_v02_na_consideration-zyn-september-2025%26utm_source_platform%3Ddv360%26utm_epid%3D427553075%26utm_content%3Dstandarddisplay_all-iqc-lpg-nondco-tp-local-yes-na-zyn-consideration-all-publishers-display-728x90px_728x90_zyn-consideration-all-publishers-display-728x90px%26dclid%3D%25edclid!%26gad_source%3D7
+            - img "Advertisement" [ref=f3e5] [cursor=pointer]
+          - generic [ref=f3e6]:
+            - generic:
+              - img [ref=f3e10] [cursor=pointer]
+              - button [ref=f3e13] [cursor=pointer]:
+                - img [ref=f3e14] [cursor=pointer]
+  - generic [ref=e153]:
+    - button "Privacy and cookie settings" [ref=e154] [cursor=pointer]
+    - generic [ref=e155]: "Managed by Google. Complies with IAB TCF. CMP ID: 300"
+```
