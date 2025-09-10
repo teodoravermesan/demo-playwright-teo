@@ -1,7 +1,7 @@
-import { expect, test } from '@playwright/test'
-
+import { expect } from '@playwright/test'
+import { test } from '../test-options'
 test.beforeEach(async ({ page }) => {
-    await page.goto('http://localhost:50596/');
+    await page.goto('/');
     await page.getByText("Forms").click()
     await page.getByText("Form Layouts").click()
 })
@@ -101,16 +101,16 @@ test('Assertions', async ({ page }) => {
 })
 
 
-test('Auto Waiting', async ({ page }) => {
-    await page.goto('http://uitestingplayground.com/ajax')
+test('Auto Waiting', async ({ page, ajaxURL }) => {
+    await page.goto(ajaxURL )
     await page.getByText('Button Triggering Ajax Request').click()
     const succesButton = page.locator('.bg-success')
     await expect(succesButton).toHaveText('Data loaded with AJAX get request.', { timeout: 20000 })
 }
 )
 
-test('Alternative Waiting', async ({ page }) => {
-    await page.goto('http://uitestingplayground.com/ajax')
+test('Alternative Waiting', async ({ page, ajaxURL}) => {
+    await page.goto(ajaxURL)
     await page.getByText('Button Triggering Ajax Request').click()
     const succesButton = page.locator('.bg-success')
     //wait for element
@@ -123,8 +123,8 @@ test('Alternative Waiting', async ({ page }) => {
 }
 )
 
-test('Timeouts', async ({ page }) => {
-    await page.goto('http://uitestingplayground.com/ajax')
+test('Timeouts', async ({ page , ajaxURL}) => {
+    await page.goto(ajaxURL)
     await page.getByText('Button Triggering Ajax Request').click()
     const succesButton = page.locator('.bg-success')
     await succesButton.click({ timeout: 20000 })

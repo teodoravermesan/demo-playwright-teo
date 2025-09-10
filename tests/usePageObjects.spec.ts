@@ -1,5 +1,4 @@
 import { test } from '../test-options'
-import { PageManager } from '../page-objects/pageManager';
 import { faker } from '@faker-js/faker'
 import { argosScreenshot } from "@argos-ci/playwright"
 

@@ -2,7 +2,7 @@ import { expect } from '@playwright/test'
 import { test } from '../test-options'
 
 test.beforeEach(async ({ page }) => {
-    await page.goto('http://localhost:50596/');
+    await page.goto('/');
 })
 
 
@@ -179,17 +179,6 @@ test.describe('layouts', () => {
     })
 
     test('sliders', async ({ page }) => {
-        //update attribute
-        // const temp = page.locator('[tabTitle="Temperature] ngx-temperature-dragger circle')
-
-        // await temp.evaluate(node => {
-        //     node.setAttribute('cx', '232.630')
-        //     node.setAttribute('cy', '232.630')
-        // })
-
-        // await temp.click()
-
-        //mouse movement
 
         const tempBox = page.locator('[tabTitle="Temperature"] ngx-temperature-dragger')
         await tempBox.scrollIntoViewIfNeeded()
@@ -209,7 +198,7 @@ test.describe('layouts', () => {
     })
 
     test('drag and drop with iframes', async ({ page, globalQaURL }) => {
-        await page.goto('https://www.globalsqa.com/demo-site/draganddrop/')
+        await page.goto(globalQaURL)
         const frame = page.frameLocator('[rel-title="Photo Manager"] iframe')
         await frame.locator('li', { hasText: "High Tatras 2" }).dragTo(frame.locator('#trash'))
 

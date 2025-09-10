@@ -145,13 +145,13 @@
   },
   "suites": [
     {
-      "title": "usePageObjects.spec.ts",
-      "file": "usePageObjects.spec.ts",
+      "title": "locators.spec.ts",
+      "file": "locators.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "testing with argos ci",
+          "title": "Timeouts",
           "ok": true,
           "tags": [],
           "tests": [
@@ -163,46 +163,25 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5134,
+                  "duration": 21976,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-09-09T13:15:17.415Z",
+                  "startTime": "2025-09-10T07:44:00.311Z",
                   "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "argos/metadata___chromium/form layots page",
-                      "contentType": "application/json",
-                      "path": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results/usePageObjects-testing-with-argos-ci-chromium/attachments/argos-metadata-chromium-form-layots-page-e50312726f1ab6a66a1cc561692a6a05d513cb43.json"
-                    },
-                    {
-                      "name": "argos/screenshot___chromium/form layots page",
-                      "contentType": "image/png",
-                      "path": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results/usePageObjects-testing-with-argos-ci-chromium/attachments/argos-screenshot-chromium-form-layots-page-7413bc0ebd1f91960db3fb101bd893d24b13d50d.png"
-                    },
-                    {
-                      "name": "argos/metadata___chromium/this is date picker page",
-                      "contentType": "application/json",
-                      "path": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results/usePageObjects-testing-with-argos-ci-chromium/attachments/argos-metadata-chromium-this-is-date-picker-page-f5243919c098ac9dd616382d7fd05397ca0e238f.json"
-                    },
-                    {
-                      "name": "argos/screenshot___chromium/this is date picker page",
-                      "contentType": "image/png",
-                      "path": "/Users/vermesant/Desktop/page object playwright/demo-playwright-teo/test-results/usePageObjects-testing-with-argos-ci-chromium/attachments/argos-screenshot-chromium-this-is-date-picker-page-405711757b335e542e0fb07e1275ae973ecba237.png"
-                    }
-                  ]
+                  "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "fa018c391591bb0319e0-7e2574ad3db7018fd1cb",
-          "file": "usePageObjects.spec.ts",
-          "line": 35,
+          "id": "abbba80301da790c63e3-03dc5b6e19d8c366d3e0",
+          "file": "locators.spec.ts",
+          "line": 126,
           "column": 5
         }
       ]
@@ -210,8 +189,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-09-09T13:15:16.679Z",
-    "duration": 5915.323000000091,
+    "startTime": "2025-09-10T07:43:59.702Z",
+    "duration": 23021.234000000004,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
